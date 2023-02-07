@@ -1,0 +1,7 @@
+<%= render @post %>
+
+<div>
+  <%= link_to "Edit this product", edit_post_path(@post) %> |  
+  <%= link_to "Back to products", posts_path %> 
+  <%= button_to "Destroy this product", @post, method: :delete %>
+</div>
